@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "pkief.material-icon-theme", // visual effects
+        "esbenp.prettier-vscode", // visual effects
+        "hashicorp.terraform",
+        "ms-python.python",
+        "foxundermoon.shell-format",
+        "timonwong.shellcheck",
+    ]
+  }

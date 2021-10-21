@@ -1,0 +1,31 @@
+{
+    // visual effects
+    "editor.linkedEditing": true,
+    "editor.cursorBlinking": "expand",
+    "workbench.editor.highlightModifiedTabs": true,
+
+    // general settings
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+
+    // Terraform
+    // https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform
+    "[terraform]": {
+        "editor.formatOnSave": true
+    },
+    "terraform-ls.experimentalFeatures": {
+        "validateOnSave": true
+    },
+
+    // Bash
+    // https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck
+    "shellcheck.enable": true,
+
+    // Python
+    "python.pythonPath": ".venv/bin/python",
+    "python.formatting.provider": "black",
+}
